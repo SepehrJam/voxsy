@@ -17,26 +17,26 @@ const Security = () => {
       <div className="container mx-auto px-6 py-20">
         <div className="text-center mb-20 fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-8 text-[--main] animate-pulse-glow">
-            امنیت و حریم خصوصی
+            Security & Privacy
           </h1>
           <p className="text-xl text-text-secondary max-w-4xl mx-auto leading-relaxed slide-up">
-            امنیت شما اولویت اول ماست. ما از پیشرفته‌ترین تکنولوژی‌های امنیتی برای محافظت از اطلاعات
-            و مکالمات شما استفاده می‌کنیم.
+            Your security is our top priority. We use advanced security technologies to protect your data
+            and conversations.
           </p>
         </div>
 
         <div className="text-center mb-20">
-          <h2 className="text-4xl font-bold mb-12 text-[--main]">ویژگی‌های امنیتی ما</h2>
+          <h2 className="text-4xl font-bold mb-12 text-[--main]">Our Security Features</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <div className="card text-center group hover-lift">
               <div className="text-6xl m-6 group-hover:scale-110 group-hover:text-[--main-dark] transition-transform float">
                 <FontAwesomeIcon icon={faLock} />
               </div>
               <h3 className="text-xl font-bold mb-3 text-text-primary group-hover:text-[--main] transition-colors">
-                رمزگذاری End-to-End
+                End-to-End Encryption
               </h3>
               <p className="text-text-secondary leading-relaxed">
-                تمام مکالمات شما با رمزگذاری محافظت می‌شوند.
+                All your conversations are protected with encryption.
               </p>
             </div>
             <div className="card text-center group hover-lift">
@@ -44,10 +44,10 @@ const Security = () => {
                 <FontAwesomeIcon icon={faShieldAlt} />
               </div>
               <h3 className="text-xl font-bold mb-3 text-text-primary group-hover:text-[--main] transition-colors">
-                حفاظت از داده‌ها
+                Data Protection
               </h3>
               <p className="text-text-secondary leading-relaxed">
-                اطلاعات شخصی شما در سرورهای امن ذخیره می‌شوند.
+                Your personal information is securely stored on our servers.
               </p>
             </div>
             <div className="card text-center group hover-lift">
@@ -55,27 +55,27 @@ const Security = () => {
                 <FontAwesomeIcon icon={faSearch} />
               </div>
               <h3 className="text-xl font-bold mb-3 text-text-primary group-hover:text-[--main] transition-colors">
-                نظارت مداوم
+                Continuous Monitoring
               </h3>
               <p className="text-text-secondary leading-relaxed">
-                تیم امنیتی ما 24/7 سیستم‌ها را نظارت می‌کند.
+                Our security team monitors systems 24/7.
               </p>
             </div>
           </div>
         </div>
 
         <div className="text-center">
-          <h2 className="text-4xl font-bold mb-12 text-[--main]">نکات امنیتی برای کاربران</h2>
+          <h2 className="text-4xl font-bold mb-12 text-[--main]">User Security Tips</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="card text-center group hover-lift">
               <div className="text-5xl m-6 group-hover:scale-110 group-hover:text-[--main-dark] transition-transform float">
                 <FontAwesomeIcon icon={faKey} />
               </div>
               <h3 className="text-xl font-bold mb-3 text-text-primary group-hover:text-[--main] transition-colors">
-                رمز عبور قوی
+                Strong Password
               </h3>
               <p className="text-text-secondary text-sm leading-relaxed">
-                از رمزهای پیچیده و منحصر به فرد استفاده کنید
+                Use complex and unique passwords.
               </p>
             </div>
             <div className="card text-center group hover-lift">
@@ -83,10 +83,10 @@ const Security = () => {
                 <FontAwesomeIcon icon={faMobileAlt} />
               </div>
               <h3 className="text-xl font-bold mb-3 text-text-primary group-hover:text-[--main] transition-colors">
-                احراز هویت دو مرحله‌ای
+                Two-Factor Authentication
               </h3>
               <p className="text-text-secondary text-sm leading-relaxed">
-                امنیت حساب خود را با 2FA افزایش دهید
+                Enhance your account security with 2FA.
               </p>
             </div>
             <div className="card text-center group hover-lift">
@@ -94,10 +94,10 @@ const Security = () => {
                 <FontAwesomeIcon icon={faUserFriends} />
               </div>
               <h3 className="text-xl font-bold mb-3 text-text-primary group-hover:text-[--main] transition-colors">
-                اعتماد نکنید
+                Be Cautious
               </h3>
               <p className="text-text-secondary text-sm leading-relaxed">
-                فقط با افراد شناخته شده ارتباط برقرار کنید
+                Only connect with people you trust.
               </p>
             </div>
             <div className="card text-center group hover-lift">
@@ -105,10 +105,10 @@ const Security = () => {
                 <FontAwesomeIcon icon={faSyncAlt} />
               </div>
               <h3 className="text-xl font-bold mb-3 text-text-primary group-hover:text-[--main] transition-colors">
-                به‌روزرسانی مداوم
+                Keep Updated
               </h3>
               <p className="text-text-secondary text-sm leading-relaxed">
-                اپلیکیشن را همیشه به‌روز نگه دارید
+                Always keep your app up to date.
               </p>
             </div>
           </div>
